@@ -1,5 +1,8 @@
 def square_array(array)
-  array.each_with_object([]) do |x, array|
-    array << x**2 
+  new_array = []
+   while array.each do
+   new_array = array << x**2 
   end
+  puts new_array
 end
+
