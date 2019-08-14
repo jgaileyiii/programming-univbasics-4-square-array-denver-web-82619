@@ -1,9 +1,8 @@
+new_array = []
+
 def square_array(array)
-
- new_array = []
-
- while array.each do 
-  new_array << array ** 2
+ array.each do |integer|
+  new_array << integer ** 2
  end
  return new_array
 end
