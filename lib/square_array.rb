@@ -1,7 +1,9 @@
-def square_array(numbers)
-  new_numbers = []
-  while numbers[] do
-    new_numbers = 
-    puts new_numbers
-  end
+def square_array(array)
+
+ new_array = []
+
+ array.each do |integer|
+  new_array << integer ** 2
+ end
+ return new_array
 end
